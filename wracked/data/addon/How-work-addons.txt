@@ -1,0 +1,19 @@
+############# How to add an add-on #####################
+
+FIRST, don't put anything supsitious!
+
+Then Extract the zip, it will add the new files to your foldes (or do it yourself)
+Go in the main.html file and at the bottom put the name of the script you want to add between the two lines:
+
+<!-- ADD BETWEEN HERE all the script you want to add, BE CAREFULL what you are using -->
+PASTE HERE
+<!-- ADD NOTHING AFTER HERE -->
+
+Nothing before, nothing after the two line.
+
+The line you have to paste should look like that:
+<script src="./data/addon/unfinished-model.js"></script>
+
+(If you do it now without the files it won't work, this is just an explanation ^^)
+
+If "<!--" and "-->" are on the line, it's mean it's commentated and it won't work
